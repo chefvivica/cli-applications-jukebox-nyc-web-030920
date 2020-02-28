@@ -53,7 +53,8 @@ end
 
 def run(songs)
   puts "Please enter a command:"
-  user_input = gets.strip
+  user_input = ""
+  user_input == gets.strip.downcase
   if user_input == list 
     list(songs)
     elsif user_input == play 
