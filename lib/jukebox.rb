@@ -58,12 +58,8 @@ def run(songs)
      case user_response
        when "help"
          help
-         puts "Please enter a command:"
-         user_response = gets.chomp
        when "list"
          list(songs)
-         puts "Please enter a command:"
-         user_response = gets.chomp
        when "play"
          play(songs)
          puts "Please enter a command:"
