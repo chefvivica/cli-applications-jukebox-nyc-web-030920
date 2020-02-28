@@ -53,7 +53,7 @@ end
 
 def run(songs)
    puts "Please enter a command:"
-   user_response = gets.chomp
+   user_response = gets.strip
    while user_response
      case user_response
        when "help"
