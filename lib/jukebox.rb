@@ -61,11 +61,11 @@ def run(songs)
          puts "Please enter a command:"
          user_response = gets.chomp
        when "list"
-         list(my_songs)
+         list(songs)
          puts "Please enter a command:"
          user_response = gets.chomp
        when "play"
-         play(my_songs)
+         play(songs)
          puts "Please enter a command:"
          user_response = gets.chomp
        when "exit"
