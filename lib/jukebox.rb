@@ -62,11 +62,11 @@ def run(songs)
          list(songs)
        when "play"
          play(songs)
-        break 
        when "exit"
-         exit_jukebox
-       
+        exit_jukebox
+         break 
        end
+      help 
      end
  end 
 
