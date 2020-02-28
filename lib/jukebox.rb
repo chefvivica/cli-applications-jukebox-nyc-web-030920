@@ -62,8 +62,6 @@ def run(songs)
          list(songs)
        when "play"
          play(songs)
-         puts "Please enter a command:"
-         user_response = gets.chomp
        when "exit"
          exit_jukebox
          break 
