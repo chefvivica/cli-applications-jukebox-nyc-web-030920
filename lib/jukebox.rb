@@ -66,5 +66,7 @@ def run(songs)
          exit_jukebox
          break 
        end
+      help 
      end
  end 
+ run(songs)
