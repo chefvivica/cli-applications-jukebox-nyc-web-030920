@@ -54,7 +54,7 @@ end
 def run(songs)
    puts "Please enter a command:"
    user_response = gets.strip
-   while user_response
+   while user_response != exit
      case user_response
        when "help"
          help
